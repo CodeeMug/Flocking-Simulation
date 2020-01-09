@@ -112,7 +112,7 @@ class Boid {
             newAcceleration.limit(maxAccelerationSlider.value());
         }
             
-        return newAcceleration.mult(alingSlider.value());
+        return newAcceleration.mult(alignSlider.value());
     }
     
     
