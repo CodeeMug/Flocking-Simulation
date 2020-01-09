@@ -4,7 +4,7 @@ let boids = [];
 let width = 800;
 let height = 650;
 
-let alingSlider;
+let alignSlider;
 let cohesionSlider;
 let separationSlider;
 let rangeSlider;
@@ -24,7 +24,7 @@ function setup() {
     background(40);
     
     // Initialize sliders
-    alingSlider = createSlider(0, 2.5, 1.0, 0.05);
+    alignSlider = createSlider(0, 2.5, 1.0, 0.05);
     cohesionSlider = createSlider(0, 2.5, 1, 0.05);
     separationSlider = createSlider(0, 2.5, 1.2, 0.05);
     rangeSlider = createSlider(0, 150, 50, 0.5);
@@ -32,7 +32,7 @@ function setup() {
     maxAccelerationSlider= createSlider(0, 5, 1, 0.1);
     
     // Initialize text
-    let alingment = createDiv('Alingment');
+    let alignment = createDiv('Alignment');
     let cohesion = createDiv('Cohesion');
     let separation = createDiv('Separation');
     let range = createDiv('Range');
@@ -40,14 +40,14 @@ function setup() {
     let maxAccelaration = createDiv('Maximum acceleration')
     
     // Set position
-    alingSlider.position(20, (height / 2) - 50);
+    alignSlider.position(20, (height / 2) - 50);
     cohesionSlider.position(20, (height / 2));
     separationSlider.position(20, (height / 2) + 50);
     rangeSlider.position(20, (height / 2) + 100);
     maxVelocitySlider.position(20, 70);
     maxAccelerationSlider.position(20, 120);
     
-    alingment.position(35, (height / 2) - 70);
+    alignment.position(35, (height / 2) - 70);
     cohesion.position(35, (height / 2)- 20);
     separation.position(35, (height / 2) + 30);
     range.position(35, (height / 2) + 80);
