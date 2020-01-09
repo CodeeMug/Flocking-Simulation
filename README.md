@@ -5,5 +5,4 @@
     project was made in JavaScript with the library P5.js
 
 -> The Boid.js file store the boid class.
-
 -> The sketch.js store the code that runs the simulation
