@@ -6,8 +6,8 @@
 
 > Boid.js
 
-       store the boid class.
+       Store the boid class.
        
 > sketch.js 
 
-      store the code that runs the simulation
+      Store the code that runs the simulation
