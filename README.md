@@ -4,5 +4,8 @@
     (alignment, cohesion, separation), that when combined create a natural looking simulation. This 
     project was made in JavaScript with the library P5.js
 
--> The Boid.js file store the boid class.
--> The sketch.js store the code that runs the simulation
+> Boid.js 
+       Store the boid class.
+       
+> sketch.js 
+      store the code that runs the simulation
